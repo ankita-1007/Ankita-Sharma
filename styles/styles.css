@@ -177,9 +177,9 @@ section {
 }
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
-  height: 90%;
-  width: 68%;
-  margin-left: 4rem;
+  height: 80%;
+  width: 60%;
+  margin-left: 7rem;
   
   transition: all 0.4s ease-in-out;
 }
@@ -240,6 +240,7 @@ section {
   transition: all 0.5s ease-in-out;
   box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
   
+  
 }
 .about-container .right-about .about-item:hover {
   cursor: default;
@@ -253,12 +254,14 @@ section {
   flex-direction: column;
 }
 .about-container .right-about .about-item .abt-text .large-text {
+  padding-top: 0rem;
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--color-secondary);
 }
 .about-container .right-about .about-item .abt-text .small-text {
   padding-left: 1rem;
+  padding-bottom: 0rem;
   position: relative;
   /* text-transform: uppercase; */
   font-size: 1.2rem;
@@ -351,6 +354,7 @@ section {
   width: 70%;
 }
 
+
 .stat-title {
   text-transform: uppercase;
   font-size: 1.4rem;
@@ -367,13 +371,6 @@ section {
   height: 1px;
   background-color: var(--color-grey-5);
   transform: translateX(-50%);
-}
-
-.right-image {
-  float: right; /* Float the image to the right */
-  margin-left: 20px; /* Add some space between the image and other content */
-  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-  height: auto; /* Maintain the image's aspect ratio */
 }
 
 /*Timeline*/
@@ -659,6 +656,7 @@ section {
   margin: 0 2.0rem;
   transition: all 0.4s ease-in-out;
 }
+
 .contact-content-con .left-contact .contact-icon a:hover {
   background-color: var(--color-secondary);
 }
@@ -671,6 +669,8 @@ section {
   justify-content: center;
   font-size: 1.3rem;
 }
+
+.contact-content-con .left-contact .imagee
 .contact-content-con .right-contact {
   flex: 3;
   margin-left: 3rem;
