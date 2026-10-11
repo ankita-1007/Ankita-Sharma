@@ -1351,6 +1351,10 @@ section {
   margin-bottom: 0.5rem;
 }
 
+.certification-details p {
+  color: var(--color-white);
+}
+
 .certification-issuer {
   color: var(--color-secondary);
   font-size: 0.95rem;
