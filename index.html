@@ -23,10 +23,16 @@
             </div>
             <div class="right-header">
                 <h1 class="name">
-                    Hi, I'm <span>Ankita</span>
-                    <div>I am a </div>
-                    <span id="element"></span>
+                    Hi, I'm <span>Ankita Sharma</span>
                 </h1>
+            
+                <p class="header-subtitle">
+                    Software Developer | Java &amp; Spring Boot | Backend Systems
+                </p>
+            
+                <p class="header-description">
+                    Building reliable backend services, distributed applications and scalable APIs.
+                </p>
                 <br>
                 <br>
                 <div class="btn-con">
@@ -73,39 +79,50 @@
             <!-- SKILLS -->
             <div class="skills-section">
                 <div class="skill-category">
-                    <h3 class="skill-cat-title">Languages</h3>
+                    <h3 class="skill-cat-title">Backend Development</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">Java</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">C/C++</span>
-                        <span class="skill-tag">SQL</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3 class="skill-cat-title">Frameworks</h3>
-                    <div class="skill-tags">
                         <span class="skill-tag">Spring Boot</span>
                         <span class="skill-tag">Microservices</span>
                         <span class="skill-tag">REST APIs</span>
-                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">OOP</span>
+
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3 class="skill-cat-title">Libraries</h3>
+                    <h3 class="skill-cat-title">Databases & Messaging</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Pandas</span>
-                        <span class="skill-tag">NumPy</span>
-                        <span class="skill-tag">OpenCV</span>
-                        <span class="skill-tag">scikit-learn</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Oracle SQL</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">Kafka</span>
+                        <span class="skill-tag">ZooKeeper</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3 class="skill-cat-title">Tools</h3>
+                    <h3 class="skill-cat-title">System Design</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Scalable Architecture</span>
+                        <span class="skill-tag">Distributed Systems</span>
+                        <span class="skill-tag">Load Balancing</span>
+                        <span class="skill-tag">Caching</span>
+                        <span class="skill-tag">Rate Limiting</span>
+                        <span class="skill-tag">Database Replication & Sharding</span>
+                        <span class="skill-tag">Fault Tolerance & High Availability</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-cat-title">Tools & DevOps</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">Git</span>
                         <span class="skill-tag">Jira</span>
                         <span class="skill-tag">IntelliJ</span>
                         <span class="skill-tag">Bitbucket</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">OpenShift</span>
+                        <span class="skill-tag">Maven</span>
                     </div>
                 </div>
             </div>
@@ -127,6 +144,9 @@
                         </p>
                         <p style="margin-top: 8px;">
                             Built key features for RAAHI, Airtel's internal employee travel reimbursement app — implemented trip pause/resume, dynamic rerouting to manager approval flows, conditional skip-manager logic, and distance validation for reimbursement eligibility.
+                        </p>
+                        <p style="margin-top: 8px;">
+                            Collaborated with Razorpay to simulate payment transactions in the MITRA app, supporting the validation of payment flows and transaction scenarios.
                         </p>
                         <p style="margin-top: 8px;">
                             Delivered multiple business-critical features including ZMOU OTF commission changes, MBOSS Site ID integration, and MNP-FRC enhancements — all with zero production rollbacks. Also improved system security via login cache optimization and session invalidation.
@@ -161,6 +181,19 @@
                     <h2>My <span>Projects</span></h2>
                 </div>
                 <div class="blogs">
+                    <div class="blog">
+                        <img src="img/tinyurl.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                <a href="https://github.com/ankita-1007/tinyurl-service">
+                                TinyURL Service</a>
+                            </h4>
+                            <p>
+                                A scalable URL shortening service built with Java 21, Spring Boot, and PostgreSQL — featuring Base62 encoding, ZooKeeper-based distributed ID generation, ID range allocation, optimistic concurrency, and thread-safe ID generation for concurrent requests.
+                            </p>
+                        </div>
+                    </div>
+
                     <div class="blog">
                         <img src="img\images.png" alt="">
                         <div class="blog-text">
@@ -346,7 +379,7 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['Backend Developer....', 'Problem Solver.....','Learner....'],
+          strings: ['Software Developer....', 'Problem Solver.....','Learner....'],
           typeSpeed: 50,
           loop : true,
         });
